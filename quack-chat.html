@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuackChat - The premier duck-to-human translation and communication platform. Connect with your feathered friends in real-time!">
+    <meta name="keywords" content="duck chat, duck translator, duck communication, bird language, duck messaging">
+    <title>QuackChat - Real-time Duck Translation | Very Nice Duck Spence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes waddle {
+            0% { transform: rotate(-2deg); }
+            50% { transform: rotate(2deg); }
+            100% { transform: rotate(-2deg); }
+        }
+        .duck-waddle:hover {
+            animation: waddle 1s infinite;
+        }
+        .chat-bubble {
+            position: relative;
+            background: #fff;
+            border-radius: 1rem;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        .chat-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 20px;
+            border-width: 10px 10px 0;
+            border-style: solid;
+            border-color: #fff transparent;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-amber-50">
+    <header class="bg-yellow-500 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/generated-website-1736309808604/home.html" class="flex items-center space-x-2">
+                <div class="duck-waddle w-12 h-12 bg-yellow-300 rounded-full relative">
+                    <div class="absolute w-4 h-4 bg-orange-500 right-1 top-4 rounded-full"></div>
+                </div>
+                <h1 class="text-2xl font-bold text-white">Very Nice Duck Spence</h1>
+            </a>
+            <nav class="hidden md:flex space-x-6 text-white">
+                <a href="/generated-website-1736309808604/pond-gallery.html" class="hover:text-yellow-200">Pond Gallery</a>
+                <a href="/generated-website-1736309808604/duck-facts.html" class="hover:text-yellow-200">Duck Facts</a>
+                <a href="/generated-website-1736309808604/bread-recipes.html" class="hover:text-yellow-200">Bread Recipes</a>
+                <a href="/generated-website-1736309808604/quack-chat.html" class="hover:text-yellow-200 font-bold">QuackChat</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto p-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h2 class="text-2xl font-bold mb-4">QuackChat - Real-time Duck Translation</h2>
+                <p class="text-gray-600 mb-4">Break the species barrier with our revolutionary duck-to-human translation technology!</p>
+                
+                <div class="bg-yellow-100 p-4 rounded-lg mb-6">
+                    <h3 class="font-bold mb-2">Current Duck Activity:</h3>
+                    <p>🦆 12 ducks online | 🌟 Premium Pond Status: Active</p>
+                </div>
+
+                <div class="chat-interface bg-gray-50 p-4 rounded-lg">
+                    <div class="chat-bubble">
+                        <p class="font-bold">Waddles McDuck:</p>
+                        <p>"Quack quack!" (Translation: Hello, got any bread?)</p>
+                    </div>
+                    
+                    <div class="chat-bubble bg-yellow-50">
+                        <p class="font-bold">You:</p>
+                        <p>Hi Waddles! I've got some nice whole grain for you!</p>
+                    </div>
+
+                    <form method="GET" action="/generated-website-1736309808604/quack-chat/send" class="mt-4">
+                        <input type="text" name="message" placeholder="Type your message..." class="w-full p-2 border rounded-lg mb-2">
+                        <button type="submit" class="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Premium Features</h3>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Multi-pond conference calls</li>
+                        <li>Dialect recognition (Mallard, Wood Duck, etc.)</li>
+                        <li>Duck emotion analysis</li>
+                        <li>Bread preference tracking</li>
+                    </ul>
+                    <a href="/generated-website-1736309808604/premium-signup.html" class="block mt-4 text-yellow-600 hover:text-yellow-700">Upgrade Now →</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Popular Ponds</h3>
+                    <div class="space-y-2">
+                        <a href="/generated-website-1736309808604/pond/central-park.html" class="block p-2 hover:bg-yellow-50 rounded">🌿 Central Park Pond (43 ducks)</a>
+                        <a href="/generated-website-1736309808604/pond/hyde-park.html" class="block p-2 hover:bg-yellow-50 rounded">🌺 Hyde Park Lake (27 ducks)</a>
+                        <a href="/generated-website-1736309808604/pond/tokyo-garden.html" class="block p-2 hover:bg-yellow-50 rounded">🍁 Tokyo Garden Pond (31 ducks)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-yellow-500 text-white p-4 mt-8">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-center md:text-left mb-4 md:mb-0">
+                <p>&copy; 2024 Very Nice Duck Spence</p>
+                <p class="text-sm">All quacks reserved</p>
+            </div>
+            <div class="flex space-x-4">
+                <a href="/generated-website-1736309808604/contact.html" class="hover:text-yellow-200">Contact</a>
+                <a href="/generated-website-1736309808604/privacy.html" class="hover:text-yellow-200">Privacy Policy</a>
+                <a href="/generated-website-1736309808604/terms.html" class="hover:text-yellow-200">Terms</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

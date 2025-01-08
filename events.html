@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover upcoming duck-related events, pond meetups, and bread-feeding gatherings at Very Nice Duck Spence">
+    <meta name="keywords" content="duck events, pond meetups, duck feeding, duck parades, waterfowl gatherings">
+    <title>Duck Events Calendar - Very Nice Duck Spence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes waddle {
+            0% { transform: rotate(-2deg); }
+            50% { transform: rotate(2deg); }
+            100% { transform: rotate(-2deg); }
+        }
+        .duck-waddle:hover {
+            animation: waddle 1s infinite;
+        }
+        .event-card:hover {
+            transform: translateY(-4px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-amber-50">
+    <header class="bg-yellow-500 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/generated-website-1736309808604/home.html" class="flex items-center space-x-2">
+                <div class="duck-waddle w-12 h-12 bg-yellow-300 rounded-full relative">
+                    <div class="absolute w-4 h-4 bg-orange-500 right-1 top-4 rounded-full"></div>
+                </div>
+                <h1 class="text-2xl font-bold text-white">Very Nice Duck Spence</h1>
+            </a>
+            <nav class="hidden md:flex space-x-6 text-white">
+                <a href="/generated-website-1736309808604/pond-gallery.html" class="hover:text-yellow-200">Pond Gallery</a>
+                <a href="/generated-website-1736309808604/duck-facts.html" class="hover:text-yellow-200">Duck Facts</a>
+                <a href="/generated-website-1736309808604/bread-recipes.html" class="hover:text-yellow-200">Bread Recipes</a>
+                <a href="/generated-website-1736309808604/quack-chat.html" class="hover:text-yellow-200">QuackChat</a>
+            </nav>
+            <button class="md:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto p-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-yellow-800">Upcoming Duck Events</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="/generated-website-1736309808604/events/annual-duck-parade.html" class="event-card bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold mb-2 text-yellow-700">Annual Duck Parade</h3>
+                <p class="text-gray-600 mb-4">Join us for our spectacular duck parade featuring over 100 different duck species!</p>
+                <div class="text-sm text-yellow-600">
+                    <p>📅 June 15, 2024</p>
+                    <p>📍 Central Pond</p>
+                </div>
+            </a>
+
+            <a href="/generated-website-1736309808604/events/bread-tasting-festival.html" class="event-card bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold mb-2 text-yellow-700">Bread Tasting Festival</h3>
+                <p class="text-gray-600 mb-4">Sample artisanal breads and learn about duck-friendly feeding practices.</p>
+                <div class="text-sm text-yellow-600">
+                    <p>📅 July 1, 2024</p>
+                    <p>📍 Waterfront Plaza</p>
+                </div>
+            </a>
+
+            <a href="/generated-website-1736309808604/events/duckling-swimming-lessons.html" class="event-card bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold mb-2 text-yellow-700">Duckling Swimming Lessons</h3>
+                <p class="text-gray-600 mb-4">Watch adorable ducklings learn to swim with their parents!</p>
+                <div class="text-sm text-yellow-600">
+                    <p>📅 Every Sunday</p>
+                    <p>📍 Training Pond</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="mt-8">
+            <form method="GET" action="/generated-website-1736309808604/events/search" class="max-w-md mx-auto">
+                <div class="flex gap-4">
+                    <input type="text" name="search" placeholder="Search events..." class="flex-grow p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                    <button type="submit" class="bg-yellow-500 text-white px-6 py-2 rounded-lg hover:bg-yellow-600 transition-colors">Search</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-yellow-500 text-white p-4 mt-8">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-center md:text-left mb-4 md:mb-0">
+                <p>&copy; 2024 Very Nice Duck Spence</p>
+                <p class="text-sm">All quacks reserved</p>
+            </div>
+            <div class="flex space-x-4">
+                <a href="/generated-website-1736309808604/contact.html" class="hover:text-yellow-200">Contact</a>
+                <a href="/generated-website-1736309808604/privacy.html" class="hover:text-yellow-200">Privacy Policy</a>
+                <a href="/generated-website-1736309808604/terms.html" class="hover:text-yellow-200">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="hidden fixed inset-0 bg-yellow-500 bg-opacity-95 z-50">
+        <div class="container mx-auto p-6">
+            <div class="flex justify-end">
+                <button class="text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <nav class="flex flex-col space-y-4 text-white text-center text-2xl mt-8">
+                <a href="/generated-website-1736309808604/pond-gallery.html" class="hover:text-yellow-200">Pond Gallery</a>
+                <a href="/generated-website-1736309808604/duck-facts.html" class="hover:text-yellow-200">Duck Facts</a>
+                <a href="/generated-website-1736309808604/bread-recipes.html" class="hover:text-yellow-200">Bread Recipes</a>
+                <a href="/generated-website-1736309808604/quack-chat.html" class="hover:text-yellow-200">QuackChat</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>

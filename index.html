@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Very Nice Duck Spence - Your ultimate destination for all things ducks, featuring pond galleries, duck facts, bread recipes, and our unique QuackChat community.">
+    <meta name="keywords" content="ducks, pond life, duck facts, bread recipes, duck community, QuackChat">
+    <title>Very Nice Duck Spence - Where Ducks Waddle in Style</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes waddle {
+            0% { transform: rotate(-2deg); }
+            50% { transform: rotate(2deg); }
+            100% { transform: rotate(-2deg); }
+        }
+        .duck-waddle:hover {
+            animation: waddle 1s infinite;
+        }
+        .pond-ripple {
+            background: radial-gradient(circle at center, #60a5fa 0%, #3b82f6 100%);
+            animation: ripple 2s infinite;
+        }
+        @keyframes ripple {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 0.6; }
+            100% { transform: scale(1); opacity: 0.8; }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-amber-50">
+    <header class="bg-yellow-500 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/generated-website-1736309808604/home.html" class="flex items-center space-x-2">
+                <div class="duck-waddle w-12 h-12 bg-yellow-300 rounded-full relative">
+                    <div class="absolute w-4 h-4 bg-orange-500 right-1 top-4 rounded-full"></div>
+                </div>
+                <h1 class="text-2xl font-bold text-white">Very Nice Duck Spence</h1>
+            </a>
+            <nav class="hidden md:flex space-x-6 text-white">
+                <a href="/generated-website-1736309808604/pond-gallery.html" class="hover:text-yellow-200">Pond Gallery</a>
+                <a href="/generated-website-1736309808604/duck-facts.html" class="hover:text-yellow-200">Duck Facts</a>
+                <a href="/generated-website-1736309808604/bread-recipes.html" class="hover:text-yellow-200">Bread Recipes</a>
+                <a href="/generated-website-1736309808604/quack-chat.html" class="hover:text-yellow-200">QuackChat</a>
+            </nav>
+            <button class="md:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4 text-yellow-600">Welcome to Duck Paradise</h2>
+                <p class="text-gray-600 mb-4">Where every duck is celebrated and every waddle is appreciated. Join our community of duck enthusiasts!</p>
+                <a href="/generated-website-1736309808604/join.html" class="inline-block bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Join The Flock</a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4 text-yellow-600">Featured Pond</h2>
+                <div class="pond-ripple w-full h-32 rounded-lg mb-4"></div>
+                <p class="text-gray-600">Crystal Lake Sanctuary - A peaceful haven for our feathered friends</p>
+                <a href="/generated-website-1736309808604/pond-gallery/crystal-lake.html" class="text-blue-500 hover:underline">Visit Pond →</a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4 text-yellow-600">QuackChat Trending</h2>
+                <ul class="space-y-2">
+                    <li class="flex items-center space-x-2">
+                        <span class="text-yellow-500">#</span>
+                        <span class="text-gray-600">WaddleWednesday</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <span class="text-yellow-500">#</span>
+                        <span class="text-gray-600">BreadReviews</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <span class="text-yellow-500">#</span>
+                        <span class="text-gray-600">PondLife</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4 text-yellow-600">Daily Duck Fact</h2>
+                <p class="text-gray-600 mb-4">Did you know? Ducks have waterproof feathers thanks to an oil gland that helps them stay dry while swimming!</p>
+                <a href="/generated-website-1736309808604/duck-facts.html" class="text-blue-500 hover:underline">More Facts →</a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4 text-yellow-600">Bread Recipe of the Day</h2>
+                <p class="text-gray-600 mb-4">Duck-Friendly Multigrain Blend - Safe and nutritious for our pond friends!</p>
+                <a href="/generated-website-1736309808604/bread-recipes/duck-friendly-multigrain.html" class="text-blue-500 hover:underline">View Recipe →</a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4 text-yellow-600">Upcoming Events</h2>
+                <ul class="space-y-2 text-gray-600">
+                    <li>Duck Photography Workshop - This Saturday</li>
+                    <li>Annual Duck Parade - Next Month</li>
+                    <li>Pond Cleanup Day - Join Us!</li>
+                </ul>
+                <a href="/generated-website-1736309808604/events.html" class="text-blue-500 hover:underline">See All Events →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-yellow-500 text-white p-4 mt-8">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="text-center md:text-left mb-4 md:mb-0">
+                <p>&copy; 2024 Very Nice Duck Spence</p>
+                <p class="text-sm">All quacks reserved</p>
+            </div>
+            <div class="flex space-x-4">
+                <a href="/generated-website-1736309808604/contact.html" class="hover:text-yellow-200">Contact</a>
+                <a href="/generated-website-1736309808604/privacy.html" class="hover:text-yellow-200">Privacy Policy</a>
+                <a href="/generated-website-1736309808604/terms.html" class="hover:text-yellow-200">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="hidden fixed inset-0 bg-yellow-500 bg-opacity-95 z-50">
+        <div class="container mx-auto p-6">
+            <div class="flex justify-end">
+                <button class="text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <nav class="flex flex-col space-y-4 text-white text-center text-2xl mt-8">
+                <a href="/generated-website-1736309808604/pond-gallery.html" class="hover:text-yellow-200">Pond Gallery</a>
+                <a href="/generated-website-1736309808604/duck-facts.html" class="hover:text-yellow-200">Duck Facts</a>
+                <a href="/generated-website-1736309808604/bread-recipes.html" class="hover:text-yellow-200">Bread Recipes</a>
+                <a href="/generated-website-1736309808604/quack-chat.html" class="hover:text-yellow-200">QuackChat</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
